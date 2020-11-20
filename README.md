@@ -1,2 +1,2 @@
 # BP-Predictor
-This app will be used to predict and monitor blood pressure.
+Train dataset based details like weight ,age to predict elevated blood pressure.
