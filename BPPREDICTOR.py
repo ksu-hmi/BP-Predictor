@@ -10,7 +10,7 @@ import pickle
 
 #creating Class for diabetes detection
 
-class DiabetesChecker():
+class bloodpressureChecker():
 
     def __init__(self):
         #creating classifier
