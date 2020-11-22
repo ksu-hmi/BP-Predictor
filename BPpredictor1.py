@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 from sklearn.model_selection import train_test_split
 import warnings
-
+warnings.filterwarnings("ignore")
 data=pd.read_csv('mydata.csv')
 data.head(10)
 data.shape
