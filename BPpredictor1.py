@@ -4,10 +4,20 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 import warnings
 warnings.filterwarnings("ignore")
+
 data=pd.read_csv('mydata.csv')
 data.head(10)
 data.shape
 data.count()
+
+# 1st commit start (data description added)
+print("="*40)
+print()
+print("Descriptive Statistics:")
+print(data.describe())
+print("="*40)
+print()
+# end of 1st commit
 
 y=data.bphi
 x=data.drop('bphi',axis=1)
