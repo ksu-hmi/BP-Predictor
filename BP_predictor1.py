@@ -19,6 +19,11 @@ print("="*40)
 print()
 # end of 1st commit
 
+# 2nd commit start (missing value replaced with respected column mean)
+data = data.fillna(data.mean())
+# end of 2nd commit 
+
+
 y=data.bphi
 x=data.drop('bphi',axis=1)
 
